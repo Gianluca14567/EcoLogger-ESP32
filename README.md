@@ -1,5 +1,6 @@
 # EcoLogger-ESP32
 EcoLogger ESP32 Board: documents / Firmware / examples
+
 The Hardened Open-Source RTU for Professional Environmental Logging & AgrotechEcoLogger ESP32 is a scientific-grade, open-source development platform specifically designed for remote environmental monitoring, hydrology, and precision agriculture.
 
 Powered by the field-proven ESP32-WROOM-32 module, this board definitively bridges the gap between fragile hobbyist microcontrollers and prohibitively expensive, proprietary industrial data loggers.
