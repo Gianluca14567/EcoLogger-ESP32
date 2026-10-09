@@ -3,7 +3,7 @@ EcoLogger ESP32 Board: documents
 
 Here there are detailed schematics of the board and example of possible sensors connection.
 
-Prototype Status
+Status:
 
 The project is currently in the fully functional prototyping stage.
 We have a robust, physical prototype completely populated and working in our laboratory.
@@ -11,34 +11,35 @@ All core hardware features, including the switching power supply, the triple-pro
 
 Main Components:
 
-Espressif ESP32-WROOM-32: Dual-core 32-bit MCU running up to 240 MHz, featuring integrated Wi-Fi 802.11 b/g/n and Bluetooth v4.2 BR/EDR & BLE. Pre-certified (CE, FCC, IC, TELEC) to simplify compliance routing.
+1) Espressif ESP32-WROOM-32: Dual-core 32-bit MCU running up to 240 MHz, featuring integrated Wi-Fi 802.11 b/g/n and Bluetooth v4.2 BR/EDR & BLE. Pre-certified (CE, FCC, IC, TELEC) to simplify compliance routing.
 
-Six ADC inut Texas Instruments ADS1115 with jumper for insert 150 Ohm 1% resistor for 4-20ma sensors
+2) Six ADC inut Texas Instruments ADS1115 with jumper for insert 150 Ohm 1% resistor for 4-20ma sensors
 
-Two Serial Transceivers RS485 A xor B
+3) Two Serial Transceivers RS485 A xor B
 
-One Serial uart Texas Instruments MAX3232
+4) One Serial uart Texas Instruments MAX3232
 
-Real time clock DS3231MZ with 3V li battery
+5) Real time clock DS3231MZ with 3V li battery
 
-SD removable card
+6) SD removable card
 
-SDI-12 port
+7) SDI-12 port
 
-Rain gauge 10Hz HW filtered port 
+8) Rain gauge 10Hz HW filtered port 
 
-3 open collector out 0.5A 12VDC
+9) 3 open collector out 0.5A 12VDC
 
-Mikroe bus espansion (except uart signals)
+10) Mikroe bus espansion (except uart signals)
 
-Internal ADC for ma current monitoring 
+11) Internal ADC for ma current monitoring 
 
-Internal ADC for input VDC monitoring
+12) Internal ADC for input VDC monitoring
 
-Internal Oled 128x64 dot for indication and debug
+13) Internal Oled 128x64 dot for indication and debug
 
-One internal push button
+14) One internal push button
 
-3V3 / 12V /9V / 5V PTC protected power outs
+15) 3V3 / 12V /9V / 5V PTC protected power outs
 
+16) Power input 10VDC to 15VDC polarity protection
 
